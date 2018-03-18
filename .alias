@@ -1,0 +1,16 @@
+	alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+	alias i3config='vim ~/.config/i3/config'
+	alias roficonfig='vim ~/.config/rofi/config'
+	alias comptonconf='vim ~/.config/compton.conf'
+	alias weather='curl http://wttr.in/Lisbon'
+	alias dunstrc='vim ~/.config/dunst/dunstrc'
+	alias vimrc='vim ~/.vimrc'
+	alias bashrc='vim ~/.bashrc'
+	alias reload='source ~/.bashrc'
+	alias xresources='vim ~/.Xresources'
+	alias reload='source ~/.bashrc'
+	alias cp="cp -i" # confirm before overwriting something	
+	alias ls="ls --color"
+	alias add_alias="vim ~/.alias"
+	alias polybarconf="vim ~/.config/polybar/config"
+	alias neofetch1="neofetch --w3m --source ~/Desktop/newRice/anonymous-vector/anonymous-vector.png --loop"

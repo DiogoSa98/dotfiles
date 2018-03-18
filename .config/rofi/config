@@ -1,0 +1,34 @@
+!
+!  ██▀███   ▒█████    █████▒██▓
+! ▓██ ▒ ██▒▒██▒  ██▒▓██   ▒▓██▒
+! ▓██ ░▄█ ▒▒██░  ██▒▒████ ░▒██▒
+! ▒██▀▀█▄  ▒██   ██░░▓█▒  ░░██░
+! ░██▓ ▒██▒░ ████▓▒░░▒█░   ░██░
+! ░ ▒▓ ░▒▓░░ ▒░▒░▒░  ▒ ░   ░▓  
+!   ░▒ ░ ▒░  ░ ▒ ▒░  ░      ▒ ░
+!   ░░   ░ ░ ░ ░ ▒   ░ ░    ▒ ░
+!    ░         ░ ░          ░  
+                             
+
+! General
+rofi.font: 							Iosevka 13
+rofi.hide-scrollbar:		true
+
+! Layout
+rofi.width:							30
+rofi.column:						5
+rofi.location:					0
+rofi.lines: 						5
+rofi.line-margin: 			10
+rofi.padding: 					250
+rofi.sidebar-mode:			false
+rofi.fullscreen:				true
+rofi.show-icons: 				true
+
+! Colors						bg			    fg			  bgalt		    hlbg			hlfg
+rofi.color-normal: #00080a11, #dda9aeb4, #00080a11, #dd0f8182, #ddc8ced4
+rofi.color-active: #dd080a11, #dda9aeb4, #dd080a11, #dd0f8182, #ddc8ced4
+rofi.color-urgent: #dd080a11, #ddac41a6, #dd080a11, #ddc41a63, #ddc8ced4
+
+!										bg			 border	     separator
+rofi.color-window: #dd080a11,	#dd080a11, #00080a11
